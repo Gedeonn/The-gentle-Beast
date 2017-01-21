@@ -9,7 +9,7 @@ public class Main
 		System.out.println("Please enter the first number:");
 		double first= input.nextDouble();
 
-		System.out.println("Please enter the second number:");
+		System.out.println("Please enter the second number that you want to use in the operation:");
 		double second=input.nextDouble();
 
 		System.out.println("Please enter the expression type:");
