@@ -21,8 +21,6 @@ public class Main
 			System.out.println(subtraction(first,second));
 		if(expression.equalsIgnoreCase("*"))
 			System.out.println(multiplication(first,second));
-		if(expression.equalsIgnoreCase("/"))
-			System.out.println(division(first,second));
 	}
 
 
@@ -40,12 +38,5 @@ public class Main
 
 
 		return(first*second); 
-	}
-	public static double division(double first, double second){
-
-		if(first==0)
-			return -1;
-		else
-			return(first/second); 
 	}
 }
